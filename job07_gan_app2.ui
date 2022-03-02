@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget</class>
+ <widget class="QWidget" name="widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>642</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="image_muse">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>그림 보기</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>430</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>다음</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="output1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>371</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>C:/Users/admin/Downloads/1-output.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="open_file">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> 파일 열기</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mone_style">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>모네 스타일</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="before">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>430</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>이전</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="banner">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>460</y>
+     <width>651</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AI 공부 추천 블로그 : https://m.blog.naver.com/togerthe</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>651</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="original">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>430</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>원본</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="style">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>430</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>스타일</string>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>image_muse</zorder>
+  <zorder>next</zorder>
+  <zorder>output1</zorder>
+  <zorder>open_file</zorder>
+  <zorder>mone_style</zorder>
+  <zorder>before</zorder>
+  <zorder>banner</zorder>
+  <zorder>original</zorder>
+  <zorder>style</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
